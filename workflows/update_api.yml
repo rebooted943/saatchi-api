@@ -1,0 +1,34 @@
+name: Aggiorna API Saatchi Art
+
+on:
+  schedule:
+    # Questo cron esegue lo script ogni 6 ore. Puoi cambiarlo.
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Permette di avviare l'action manualmente dal sito di GitHub
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout del repository
+      uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Installa dipendenze
+      run: pip install -r requirements.txt
+
+    - name: Esegui lo scraper
+      run: python scraper.py
+
+    - name: Committa e pusha le modifiche (se ci sono)
+      run: |
+        git config --global user.name "GitHub Action Bot"
+        git config --global user.email "action@github.com"
+        git add opere.json
+        git commit -m "Automated update: opere.json" || exit 0
+        git push
