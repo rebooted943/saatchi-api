@@ -6,6 +6,9 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch: # Permette di avviare l'action manualmente dal sito di GitHub
 
+permissions:
+  contents: write
+  
 jobs:
   update-data:
     runs-on: ubuntu-latest
