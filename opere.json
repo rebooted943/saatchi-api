@@ -1,0 +1,18 @@
+[
+  {
+    "id": "13504247",
+    "titolo": "This Space Doesn't Exist 2",
+    "prezzo_listino": 200000,
+    "stato": "avail",
+    "url_immagine": "https://images.saatchiart.com/saatchi/2254831/art/13504247/12566379-MOZZVTXT-6.jpg",
+    "link_opera": "https://www.saatchiart.com/art/Painting-This-Space-Doesn-t-Exist-2/2254831/13504247/view"
+  },
+  {
+    "id": "13504161",
+    "titolo": "This Space Doesn't Exist 1",
+    "prezzo_listino": 160500,
+    "stato": "sold",
+    "url_immagine": "https://images.saatchiart.com/saatchi/2254831/art/13504161/12566293-OMFEXXJX-6.jpg",
+    "link_opera": "https://www.saatchiart.com/art/Painting-This-Space-Doesn-t-Exist-1/2254831/13504161/view"
+  }
+]
