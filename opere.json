@@ -2,25 +2,28 @@
   {
     "id": "13954177",
     "titolo": "Looking Within",
-    "prezzo_listino": 185000,
+    "prezzo_listino": 188000,
     "stato": "avail",
-    "url_immagine": "https://images.saatchiart.com/saatchi/2254831/art/13954177/13016209-SNQWOFDE-6.jpg",
+    "url_immagine": "https://raw.githubusercontent.com/rebooted943/saatchi-api/main/images/13954177.jpg",
+    "url_immagine_saatchi": "https://images.saatchiart.com/saatchi/2254831/art/13954177/13016209-SNQWOFDE-8.jpg",
     "link_opera": "https://www.saatchiart.com/art/Painting-Looking-Within/2254831/13954177/view"
   },
   {
     "id": "13504247",
     "titolo": "This Space Doesn't Exist 2",
-    "prezzo_listino": 200000,
+    "prezzo_listino": 212000,
     "stato": "avail",
-    "url_immagine": "https://images.saatchiart.com/saatchi/2254831/art/13504247/12566379-MOZZVTXT-6.jpg",
+    "url_immagine": "https://raw.githubusercontent.com/rebooted943/saatchi-api/main/images/13504247.jpg",
+    "url_immagine_saatchi": "https://images.saatchiart.com/saatchi/2254831/art/13504247/12566379-MOZZVTXT-8.jpg",
     "link_opera": "https://www.saatchiart.com/art/Painting-This-Space-Doesn-t-Exist-2/2254831/13504247/view"
   },
   {
     "id": "13504161",
     "titolo": "This Space Doesn't Exist 1",
-    "prezzo_listino": 160500,
+    "prezzo_listino": 169500,
     "stato": "sold",
-    "url_immagine": "https://images.saatchiart.com/saatchi/2254831/art/13504161/12566293-OMFEXXJX-6.jpg",
+    "url_immagine": "https://raw.githubusercontent.com/rebooted943/saatchi-api/main/images/13504161.jpg",
+    "url_immagine_saatchi": "https://images.saatchiart.com/saatchi/2254831/art/13504161/12566293-OMFEXXJX-8.jpg",
     "link_opera": "https://www.saatchiart.com/art/Painting-This-Space-Doesn-t-Exist-1/2254831/13504161/view"
   }
 ]
